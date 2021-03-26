@@ -1,0 +1,195 @@
+:root {
+  --primary-color: #008073;
+  --nav-background: #f5f5f0;
+  --nav-text:#b30000;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+#picture {
+  background-image: url("../img/pic.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#picture .makeThings {
+  background-color: var(--primary-color);
+  color: white;
+}
+#picture .makeADifference {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
+#picture .texts  p{
+  color: white;
+  font-family: cursive;
+  top:80px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+/* header end */
+
+/* navbarstart */
+nav{
+  background-color: var(--primary-color);
+}
+/* navEnd */
+
+/* aboutStart */
+#About .header, #Education .header, #courses .header{
+  background-color: var(--primary-color);
+  color:white;
+  font-family: monospace;
+}
+
+#About h1, #Education h1, #courses h1 {
+  font-size: 4rem;
+  margin-left: 50px;
+}
+
+#About .body, #Education .body, #courses .body {
+  background-color: var(--nav-background);
+  color: var(--nav-text);
+}
+#About h4{
+  color: black;
+}
+/* aboutEnd */
+
+/* educationAndCoursesStart */
+
+#Education .box, #courses .box{
+  font-family: Arial;
+  background-color: white;
+  margin: 12px;
+}
+#Education .heading, #courses .heading {
+    color: var(--primary-color);
+}
+
+/* educationAndCoursesEnd */
+
+
+/* skillsStarts */
+#skills .header {
+  background-color: var(--primary-color);
+  color:white;
+  font-family: monospace;
+}
+#skills h1 {
+  font-size: 4rem;
+  margin-left: 50px;
+}
+#skills .body {
+  background-color: var(--nav-background);
+  color: var(--nav-text);
+}
+#skills .heading {
+  color: var(--primary-color);
+}
+#skills .box {
+  font-family: Arial;
+  background-color: white;
+  margin: 12px;
+}
+#skills img{
+  width: 150px;
+  height: 150px;
+}
+#skills h5 {
+  margin-top: 15px;
+}
+/* skillsEnd */
+
+/* projectsStart */
+
+#projects .header {
+  background-color: var(--primary-color);
+  color:white;
+  font-family: monospace;
+}
+#projects h1 {
+  font-size: 4rem;
+  margin-left: 50px;
+}
+#projects .body {
+  background-color: var(--nav-background);
+  color: var(--nav-text);
+}
+#projects .heading {
+  color: var(--primary-color);
+}
+#projects .box {
+  font-family: Arial;
+  background-color: white;
+  margin: 12px;
+}
+
+/* projectsEnd */
+
+/* contactStart */
+
+#contact .header {
+  background-color: var(--primary-color);
+  color:white;
+  font-family: monospace;
+}
+#contact h1 {
+  font-size: 4rem;
+  margin-left: 50px;
+}
+#contact .body {
+  background-color: var(--nav-background);
+  color: var(--nav-text);
+}
+#contact .heading {
+  color: var(--primary-color);
+}
+#contact .box {
+  font-family: Arial;
+  background-color: white;
+  margin: 12px;
+}
+#contact .body {
+  height: 500px;
+}
+#contact img{
+  width:60px;
+  height: 100%;
+}
+
+/* contactEnd */
+
+@media (min-width:50px) {
+  #picture  {
+    padding-bottom: 120px;
+  }
+}
+
+@media (min-width: 544px) {
+  #picture .texts p {font-size:1.5rem;}
+  #picture  {
+    padding-bottom: 200px;
+  }
+}
+@media (min-width: 768px) {
+  #picture .texts p {font-size:2rem;}
+  #picture  {
+    padding-bottom: 300px;
+  }
+}
+@media (min-width: 992px) {
+  #picture .texts p {font-size:2.5rem;}
+  #picture  {
+    padding-bottom: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  #picture .texts p {font-size:3rem;}
+  #picture  {
+    padding-bottom: 600px;
+  }
+}
